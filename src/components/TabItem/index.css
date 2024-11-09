@@ -1,0 +1,42 @@
+.list-style {
+  list-style-type: none;
+  text-align: center;
+}
+
+.tab-title {
+  text-align: center;
+  color: #7b8794;
+  font-family: 'Bree Serif';
+  font-size: 16px;
+  margin-bottom: 0;
+  transition: transform;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+
+hr {
+  width: 60px;
+  color: #dfe2e5;
+}
+
+.blue-color {
+  color: #2563eb;
+  transform: translateY(-3px);
+}
+
+.blue-hr {
+  border-color: #2563eb;
+}
+
+@media screen and (min-width: 768px) {
+  .tab-title {
+    font-size: 30px;
+  }
+  hr {
+    width: 130px;
+  }
+  .blue-color {
+    transform: translateY(-8px);
+  }
+}
